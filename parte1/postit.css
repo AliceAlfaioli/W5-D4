@@ -33,44 +33,45 @@ section div {
 section div:nth-child(1) {
   background-color: rgb(207, 180, 60);
   transform: rotate(10deg);
+  animation: bacheca 1s backwards;
 }
 
 section div:nth-child(2) {
   background-color: rgb(155, 132, 177);
-  animation: bacheca 1s backwards;
+  animation: bacheca 1.4s backwards;
 }
 
 section div:nth-child(3) {
   background-color: rgb(114, 114, 170);
   transform: rotate(10deg);
-  animation: bacheca 1.4s backwards;
+  animation: bacheca 1.8s backwards;
 }
 
 section div:nth-child(4) {
   background-color: rgb(212, 116, 180);
-  animation: bacheca 1.8s backwards;
+  animation: bacheca 2.2s backwards;
 }
 
 section div:nth-child(5) {
   background-color: rgb(130, 202, 136);
   transform: rotate(10deg);
-  animation: bacheca 2.2s backwards;
+  animation: bacheca 2.6s backwards;
 }
 
 section div:nth-child(6) {
   background-color: rgb(150, 75, 75);
-  animation: bacheca 2.6s backwards;
+  animation: bacheca 3s backwards;
 }
 
 section div:nth-child(7) {
   background-color: rgb(68, 88, 48);
   transform: rotate(10deg);
-  animation: bacheca 3s backwards;
+  animation: bacheca 3.4s backwards;
 }
 
 section div:nth-child(8) {
   background-color: rgb(156, 102, 57);
-  animation: bacheca 3.4s backwards;
+  animation: bacheca 3.6s backwards;
 }
 
 section div:hover {
