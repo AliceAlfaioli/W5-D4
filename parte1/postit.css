@@ -1,0 +1,109 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 2rem "Indie Flower";
+}
+
+.postit {
+  background-color: #666;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+section h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+section div {
+  padding: 2em;
+  margin: 0.7em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transform: rotate(-5deg);
+  animation: 0.5s;
+}
+
+section div:nth-child(1) {
+  background-color: rgb(207, 180, 60);
+  transform: rotate(10deg);
+}
+
+section div:nth-child(2) {
+  background-color: rgb(155, 132, 177);
+}
+
+section div:nth-child(3) {
+  background-color: rgb(114, 114, 170);
+  transform: rotate(10deg);
+}
+
+section div:nth-child(4) {
+  background-color: rgb(212, 116, 180);
+}
+
+section div:nth-child(5) {
+  background-color: rgb(130, 202, 136);
+  transform: rotate(10deg);
+}
+
+section div:nth-child(6) {
+  background-color: rgb(150, 75, 75);
+}
+
+section div:nth-child(7) {
+  background-color: rgb(68, 88, 48);
+  transform: rotate(10deg);
+}
+
+section div:nth-child(8) {
+  background-color: rgb(156, 102, 57);
+}
+
+section div:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+@keyframes bacheca {
+  0% {
+    opacity: 0;
+    transform: scale(10);
+  }
+
+  25% {
+    opacity: 0;
+    transform: scale(8);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(6);
+  }
+
+  55% {
+    opacity: 1;
+    transform: scale(4);
+  }
+
+  65% {
+    opacity: 1;
+    transform: scale(2);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
